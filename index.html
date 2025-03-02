@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaira Mae Mier's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .project-box, .highlighted-section {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+        }
+        .highlighted-project, .highlighted-section {
+            border: 2px solid white;
+        }
+        .tech-icon {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white; font-family: 'Work Sans', sans-serif; margin: 0; padding: 0;">
+    <header style="padding: 20px; text-align: center;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <img src="images/zm.jpg" alt="Zaira Mae Mier" style="width: 150px; height: 150px; border-radius: 50%;">
+            <div style="text-align: center;">
+                <h1 style="font-family: 'Oswald', sans-serif; font-size: 35px; text-transform: uppercase;">Zaira Mae Mier</h1>
+                <p>Aspiring Software Engineer</p>
+                <p><i class="fas fa-map-marker-alt"></i> Cebu, Philippines</p>
+                <div style="margin-top: 10px;">
+                    <a href="mailto:z4mier@gmail.com" style="color: white; margin: 0 10px;" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/zaira-mier" style="color: white; margin: 0 10px;" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/z4mier" style="color: white; margin: 0 10px;" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding: 20px;">
+        <section id="about" class="highlighted-section">
+            <h2 style="font-family: 'Oswald', sans-serif; font-size: 28px; text-transform: uppercase;">About</h2>
+            <p>I am a third-year IT student with a strong interest in web development and full-stack development.</p>
+        </section>
+
+        <section id="tech-stack" class="highlighted-section">
+            <h2 style="font-family: 'Oswald', sans-serif; font-size: 28px; text-transform: uppercase;">Tech Stack</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="padding: 5px 0;"><i class="fab fa-html5 tech-icon"></i> HTML & CSS</li>
+                <li style="padding: 5px 0;"><i class="fab fa-js tech-icon"></i> JavaScript</li>
+                <li style="padding: 5px 0;"><i class="fab fa-python tech-icon"></i> Python</li>
+                <li style="padding: 5px 0;"><i class="fas fa-database tech-icon"></i> MySQL</li>
+            </ul>
+        </section>
+
+        <section id="recent-projects" class="highlighted-section">
+            <h2 style="font-family: 'Oswald', sans-serif; font-size: 28px; text-transform: uppercase;">Recent Projects</h2>
+            <div class="project-box highlighted-project">
+                <a href="https://github.com/z4mier/ATTENDANCE-CHECKER" style="color: white;">
+                    <i class="fa-solid fa-user-check"></i> ATTENDANCE CHECKER
+                </a>
+                <p>A web application for managing student attendance, developed using HTML, CSS, JavaScript, and Python (Flask). 
+                  It also utilizes MySQL for database management and includes features to generate QR codes and scan them to retrieve student information.</p>
+            </div>
+            <div class="project-box highlighted-project">
+                <a href="#" style="color: white;">CCS SIT-IN MONITORING SYSTEM</a>
+                <p>In Progess.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 10px 0;">
+        <p>&copy; 2025 Zaira Mae Mier</p>
+    </footer>
+</body>
+</html>
